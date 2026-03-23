@@ -1,9 +1,15 @@
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-n7csjzkbpqfddqxfqlmqih.streamlit.app/)
+
 # 🤖 AI Chatbot (Streamlit + Groq)
 
 A simple conversational AI chatbot built using **Streamlit** and the **Groq API**.
 It supports chat history, session-based memory, and an exit command to end conversations.
 
 ---
+
+## 🚀 Live Demo
+👉 [Click here to try the chatbot](https://chatbot-n7csjzkbpqfddqxfqlmqih.streamlit.app/)
+
 
 ## 🚀 Features
 
