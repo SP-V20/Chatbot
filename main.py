@@ -4,8 +4,10 @@ from groq import Groq
 from dotenv import load_dotenv
 from inject_clarity import inject_clarity
 
-# Inject Clarity script
-inject_clarity()
+# Only inject once per session
+if "clarity_injected" not in st.session_state:
+    inject_clarity()
+    st.session_state.clarity_injected = True
 
 load_dotenv()
 
