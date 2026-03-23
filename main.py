@@ -2,6 +2,10 @@ import os
 import streamlit as st
 from groq import Groq
 from dotenv import load_dotenv
+from inject_clarity import inject_clarity
+
+# Inject Clarity script
+inject_clarity()
 
 load_dotenv()
 
